@@ -1,4 +1,4 @@
-El algoritmo implementado en el código proporcionado utiliza la **Transformada Discreta de Wavelet (DWT)** con la wavelet **Haar** para procesar imágenes de documentos (por ejemplo, escaneos en PNG o JPG) con el objetivo de comprimirlas mientras se preserva la legibilidad del texto. A continuación, se describe el proceso en detalle:
+El algoritmo implementado es la **Transformada Discreta de Wavelet (DWT)** con la wavelet **Haar** para procesar imágenes de documentos (por ejemplo, escaneos en PNG o JPG) con el objetivo de comprimirlas mientras se preserva la legibilidad del texto. A continuación, se describe el proceso en detalle:
 
 1. **Carga de la imagen**:
    - La imagen se carga en escala de grises usando OpenCV (`cv2.imdecode` en Python, `imread` en C++).
